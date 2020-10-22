@@ -1,0 +1,10 @@
+- key:               doge-testnet
+  name:              Dogecoin Testnet
+  client:            dogecoin                             # API client name.
+  server:            http://user:password@127.0.0.1:18332 # Public Dogecoin node endpoint.
+  height:            1087160                               # Initial block number from which sync will be started.
+  min_confirmations: 6                                    # Minimal confirmations needed for withdraw and deposit confirmation.
+  explorer:
+    address:         https://chain.so/address/DOGETEST/#{address}
+    transaction:     https://chain.so/tx/DOGETEST/#{txid}
+  status:            active
